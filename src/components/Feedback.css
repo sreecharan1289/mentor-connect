@@ -1,0 +1,50 @@
+.feedback-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-item {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2e3e61;
+    margin-bottom: 20px;
+  }
+  
+  .star {
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+  }
+  
+  .star.filled {
+    color: #f5a623;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .submit-btn {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .submit-btn:hover {
+    background-color: #006060;
+  }
+  

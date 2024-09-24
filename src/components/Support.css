@@ -1,0 +1,37 @@
+/* Support Styling */
+.support-container {
+    padding-top: 0;
+    padding: 20px;
+    background-color: #e4e5e7;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2e3e61;
+    margin-bottom: 20px;
+  }
+  
+  .support-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .support-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .support-item i {
+    color: #008080;
+  }
+  
+  .support-item span {
+    font-size: 18px;
+    color: #333;
+  }
+  

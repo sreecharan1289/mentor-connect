@@ -1,0 +1,46 @@
+.mentor-schedule-container {
+    padding: 20px;
+  }
+  
+  .schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 7 time slots + 1 day column */
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .schedule-header,
+  .schedule-day,
+  .schedule-cell {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    background-color: #f0f8ff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule-header {
+    background-color: #008cba;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .schedule-day {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .schedule-cell:hover {
+    background-color: #d4edda;
+  }
+  
+  .mentor-schedule-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .empty-cell {
+    /* Empty cell at the top-left corner of the grid */
+    background-color: #fff;
+  }
+  
